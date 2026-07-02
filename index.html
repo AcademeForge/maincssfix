@@ -62,7 +62,7 @@
     html.light .toast{background:#ffffff;}
     html.light .sb-section-label{color:rgba(0,0,0,0.35);}
     html.light .conv-group-label{color:rgba(0,0,0,0.3);}
-    html.light .msg-row.assistant .bubble{background:var(--surface);border-color:var(--border);}
+    html.light .msg-row.assistant .bubble{box-shadow:0 4px 18px -8px rgba(0,0,0,0.08);}
     html.light .new-conv-btn{background:rgba(0,0,0,0.04);border-color:var(--border);}
     html.light .new-conv-btn:hover{background:rgba(204,255,0,0.08);}
     html.light .sb-new-chat{background:rgba(0,0,0,0.02);}
@@ -602,7 +602,7 @@
     .mhdr-logout{padding:5px 9px;background:rgba(239,68,68,0.07);border:1px solid rgba(239,68,68,0.16);border-radius:var(--r2);font-size:10.5px;font-weight:600;color:#fca5a5;white-space:nowrap;flex-shrink:0;}
     html.light .mhdr-logout{color:#991b1b;}
     .mhdr-logout:hover{background:var(--err);color:#fff;}
-    .mhdr-row2{display:flex;gap:5px;align-items:center;padding:0 11px 9px;overflow-x:auto;scrollbar-width:none;}
+    .mhdr-row2{display:flex;gap:5px;align-items:center;justify-content:center;padding:0 11px 9px;overflow-x:auto;scrollbar-width:none;}
     .mhdr-row2::-webkit-scrollbar{display:none;}
     .mode-pill{
       display:flex;align-items:center;gap:5px;padding:5px 13px;
@@ -763,10 +763,12 @@
     .msg-row.assistant.mode-tapri .ai-avatar{background:linear-gradient(135deg,var(--mode-tapri),#c084fc);color:#fff;}
     .msg-row.assistant .msg-body{flex:1;min-width:0;align-items:flex-start;}
     .msg-row.assistant .bubble{
-      background:transparent;color:var(--t1);
-      border-radius:0;padding:0;
+      background:var(--card);color:var(--t1);
+      border:1px solid var(--border);
+      border-radius:var(--r3);padding:16px 18px;
       font-size:14px;line-height:1.75;
       word-break:break-word;max-width:100%;
+      box-shadow:0 4px 18px -8px rgba(0,0,0,0.4);
     }
 
     .msg-body{display:flex;flex-direction:column;}
@@ -776,6 +778,7 @@
       letter-spacing:0.02em;
       display:flex;align-items:center;gap:5px;
     }
+    .msg-row.mode-af_proguide .msg-sender{color:var(--p-light);}
     .msg-row.mode-dev .msg-sender{color:rgba(249,115,22,0.7);}
     .msg-row.mode-tapri .msg-sender{color:rgba(168,85,247,0.7);}
 
