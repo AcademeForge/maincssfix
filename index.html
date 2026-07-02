@@ -1,14 +1,230 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#ccff00">
-  <title>AcademeForge AI</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ccff00" />
+  <!-- ═══ AcademeForge AI — ai.academeforge.in ═══ -->
+  <meta name="description" content="AcademeForge AI is your personal student workspace — chat with AF ProGuide AI mentor (AF 2.4, Dev 1.3, Tapri 7.9), get help with coding, career guidance, interview prep, and learning. Built for Indian students by AcademeForge, Patna, Bihar." />
+  <meta name="keywords" content="AcademeForge AI, AF ProGuide, AF ProGuide AI, student AI mentor India, AI chat for students, AF 2.4, Dev 1.3, Tapri 7.9, coding help AI India, career guidance AI, interview prep AI, Bihar EdTech AI, Patna student AI, AcademeForge workspace, student chatbot India, ai.academeforge.in" />
+  <meta name="author" content="AcademeForge" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <link rel="canonical" href="https://ai.academeforge.in/" />
+
+  <title>AcademeForge AI — AF ProGuide Student Mentor | ai.academeforge.in</title>
+
+  <!-- Open Graph — for WhatsApp, Facebook, LinkedIn link previews -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="AcademeForge AI" />
+  <meta property="og:title" content="AcademeForge AI — Your Personal Student AI Mentor" />
+  <meta property="og:description" content="Chat with AF ProGuide AI — AF 2.4, Dev 1.3, and Tapri 7.9 — for coding help, career guidance, interview prep, and learning support. Exclusively for AcademeForge students." />
+  <meta property="og:url" content="https://ai.academeforge.in/" />
+  <meta property="og:image" content="https://academeforge.in/IMG/og-image.webp" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="AcademeForge AI — AF ProGuide Student Mentor" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@academeforge" />
+  <meta name="twitter:title" content="AcademeForge AI — AF ProGuide Student Mentor" />
+  <meta name="twitter:description" content="Chat with AF ProGuide AI — AF 2.4, Dev 1.3, Tapri 7.9 — for coding, career, interviews and learning. For AcademeForge students." />
+  <meta name="twitter:image" content="https://academeforge.in/IMG/og-image.webp" />
+  <meta name="twitter:image:alt" content="AcademeForge AI — AF ProGuide Student Mentor" />
+
+  <!-- PWA & platform meta -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="AF ProGuide AI" />
+  <link rel="apple-touch-icon" href="/IMG/icon-192.png" />
+  <meta name="msapplication-TileColor" content="#ccff00" />
+  <meta name="msapplication-TileImage" content="/IMG/icon-192.png" />
+  <meta name="application-name" content="AcademeForge AI" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="/IMG/icon-192.png" />
   <link rel="icon" type="image/jpeg" href="/AF%20LOGO%202.jpeg">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- SoftwareApplication schema — describes AF ProGuide AI as an app for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "AcademeForge AI — AF ProGuide",
+    "alternateName": ["AF ProGuide", "AF ProGuide AI", "AcademeForge AI Workspace"],
+    "url": "https://ai.academeforge.in/",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Web, Android, iOS",
+    "description": "AcademeForge AI is the official student AI workspace at ai.academeforge.in. It runs AF ProGuide — a multi-model AI mentor with three personalities: AF 2.4 (general learning and study help), Dev 1.3 (coding, logic, and technical problem-solving), and Tapri 7.9 (casual, friendly conversations). Students use it for coding help, career guidance, interview prep, portfolio building, and academic support.",
+    "featureList": [
+      "AF 2.4 — General study and learning assistant",
+      "Dev 1.3 — Coding, logic, and technical problem-solving AI",
+      "Tapri 7.9 — Casual and friendly student conversation mode",
+      "Multi-turn chat with conversation history",
+      "Dark and light mode UI",
+      "Mobile, tablet, and desktop optimised"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR",
+      "description": "Free tier available. Premium access for registered AcademeForge students."
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "AcademeForge",
+      "url": "https://academeforge.in/",
+      "logo": "https://academeforge.in/IMG/logo.png",
+      "email": "academeforge@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Patna",
+        "addressRegion": "Bihar",
+        "addressCountry": "IN"
+      }
+    },
+    "inLanguage": ["en-IN", "hi"],
+    "datePublished": "2024-01-01",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AcademeForge",
+      "url": "https://academeforge.in/"
+    }
+  }
+  </script>
+
+  <!-- WebSite schema — scoped to ai.academeforge.in -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AcademeForge AI",
+    "url": "https://ai.academeforge.in/",
+    "description": "The official AF ProGuide AI student workspace by AcademeForge — multi-model AI mentor for Indian students.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "AcademeForge",
+      "url": "https://academeforge.in/"
+    }
+  }
+  </script>
+
+  <!-- WebPage schema — describes this login/workspace page specifically -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AcademeForge AI — AF ProGuide Student Mentor",
+    "url": "https://ai.academeforge.in/",
+    "description": "Sign in to AcademeForge AI to access AF ProGuide — your personal AI mentor with modes AF 2.4, Dev 1.3, and Tapri 7.9. Get coding help, career guidance, interview prep, and academic support. For registered AcademeForge students.",
+    "inLanguage": "en-IN",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "AcademeForge AI",
+      "url": "https://ai.academeforge.in/"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "AF ProGuide AI",
+      "url": "https://ai.academeforge.in/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AcademeForge",
+      "url": "https://academeforge.in/"
+    },
+    "datePublished": "2024-01-01",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "AcademeForge", "item": "https://academeforge.in/"},
+        {"@type": "ListItem", "position": 2, "name": "AF ProGuide AI", "item": "https://ai.academeforge.in/"}
+      ]
+    }
+  }
+  </script>
+
+  <!-- FAQPage schema — AF ProGuide AI specific FAQs for Google rich results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is AcademeForge AI?",
+        "acceptedAnswer": {"@type": "Answer", "text": "AcademeForge AI is the official student AI workspace at ai.academeforge.in, built by AcademeForge. It runs AF ProGuide — a multi-model AI mentor with three modes: AF 2.4 for general study help, Dev 1.3 for coding and technical problem-solving, and Tapri 7.9 for casual friendly conversations. It is designed exclusively for registered AcademeForge students in India."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is AF ProGuide?",
+        "acceptedAnswer": {"@type": "Answer", "text": "AF ProGuide is AcademeForge's built-in AI student mentor available at ai.academeforge.in. It has three AI model modes — AF 2.4 (general learning assistant), Dev 1.3 (coding and logic helper), and Tapri 7.9 (casual friendly mode). It helps students with Python coding, portfolio building, job interview preparation, career advice, and general academic questions."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is AF 2.4?",
+        "acceptedAnswer": {"@type": "Answer", "text": "AF 2.4 is AcademeForge AI's general-purpose learning mode inside AF ProGuide. It helps students with study questions, concept explanations, academic topics, course-related doubts, and general knowledge across subjects."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is Dev 1.3?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Dev 1.3 is AcademeForge AI's coding and technical mode inside AF ProGuide. It helps students learn programming (including Python), debug code, understand logic and algorithms, and solve technical problems step by step."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is Tapri 7.9?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Tapri 7.9 is AcademeForge AI's casual and friendly conversation mode inside AF ProGuide. It is designed for relaxed chats, motivational support, and light-hearted interactions — like talking to a study buddy at a tea stall (tapri)."}
+      },
+      {
+        "@type": "Question",
+        "name": "Who can use AcademeForge AI?",
+        "acceptedAnswer": {"@type": "Answer", "text": "AcademeForge AI is for registered AcademeForge students. Students sign in using their Student ID and password at ai.academeforge.in. New students can create an ID directly on the login page. It is free to access with a registered AcademeForge account."}
+      },
+      {
+        "@type": "Question",
+        "name": "How do I log in to AcademeForge AI?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Go to ai.academeforge.in, enter your Student ID and password on the login screen, and click 'Sign in to AI Workspace'. If you are a new student, click 'Create ID' on the same page to register. For help, contact help@academeforge.in."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is AcademeForge AI free?",
+        "acceptedAnswer": {"@type": "Answer", "text": "AcademeForge AI has a free tier available to all registered AcademeForge students. Students can access AF ProGuide AI including AF 2.4, Dev 1.3, and Tapri 7.9 modes after signing in with their Student ID at ai.academeforge.in."}
+      }
+    ]
+  }
+  </script>
+
+  <!-- BreadcrumbList schema — navigation path for Google rich results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "AcademeForge Home",  "item": "https://academeforge.in/"},
+      {"@type": "ListItem", "position": 2, "name": "AF ProGuide AI",     "item": "https://ai.academeforge.in/"}
+    ]
+  }
+  </script>
+
+  <!-- Speakable schema — Google Assistant / voice search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AcademeForge AI — AF ProGuide",
+    "url": "https://ai.academeforge.in/",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".auth-title", ".auth-sub"]
+    }
+  }
+  </script>
   <style>
     /* ── CSS Variables ── */
     :root{
@@ -272,15 +488,62 @@
     .auth-note a{color:var(--p-light);font-weight:600;text-decoration:none;border-bottom:1px dashed rgba(226,255,102,0.4);}
     .auth-note a:hover{color:#eaffa0;border-bottom-style:solid;}
     html.light #panelAuth{
-      background:radial-gradient(ellipse 120% 80% at 50% 50%, #f0f0ec 0%, #e9e9e2 50%, #e1e1d8 100%);
+      background:
+        radial-gradient(ellipse 90% 60% at 20% 10%, rgba(204,255,0,0.18) 0%, transparent 55%),
+        radial-gradient(ellipse 70% 50% at 80% 90%, rgba(143,212,0,0.14) 0%, transparent 55%),
+        radial-gradient(ellipse 55% 40% at 75% 15%, rgba(168,85,247,0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 45% at 10% 80%, rgba(99,219,0,0.08) 0%, transparent 55%),
+        linear-gradient(145deg, #f4f7ee 0%, #edf2e4 35%, #f0eeec 70%, #ece8e0 100%);
     }
+    html.light .auth-bg-canvas{background:transparent;}
     html.light .auth-bg-grid{
       background-image:
-        linear-gradient(rgba(204,255,0,0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(204,255,0,0.05) 1px, transparent 1px);
+        linear-gradient(rgba(100,140,0,0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(100,140,0,0.07) 1px, transparent 1px);
+      background-size:48px 48px;
     }
-    html.light .auth-bg-gradient-1{background:radial-gradient(ellipse at center,rgba(204,255,0,0.08) 0%,rgba(204,255,0,0.03) 40%,transparent 70%);}
-    html.light .particle{background:rgba(204,255,0,0.25);}
+    html.light .auth-bg-gradient-1{
+      background:radial-gradient(ellipse at center,rgba(204,255,0,0.22) 0%,rgba(143,212,0,0.10) 40%,transparent 70%);
+      filter:blur(40px);
+    }
+    html.light .auth-bg-gradient-2{
+      background:radial-gradient(ellipse at center,rgba(180,230,0,0.16) 0%,transparent 65%);
+      filter:blur(60px);
+    }
+    html.light .auth-bg-gradient-3{
+      background:radial-gradient(ellipse at center,rgba(143,212,0,0.12) 0%,transparent 65%);
+      filter:blur(60px);
+    }
+    html.light .auth-bg-gradient-4{
+      background:radial-gradient(ellipse at center,rgba(168,85,247,0.08) 0%,transparent 65%);
+      filter:blur(50px);
+    }
+    html.light .auth-bg-neural{opacity:0.12;}
+    html.light .particle{background:rgba(100,160,0,0.35);}
+    html.light .particle:nth-child(even){background:rgba(90,140,0,0.28);}
+    html.light .particle:nth-child(3n){background:rgba(130,80,200,0.2);}
+    /* Light mode card: frosted glass on top of rich background */
+    html.light .auth-card{
+      background:rgba(255,255,255,0.72);
+      backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);
+      border:1px solid rgba(204,255,0,0.18);
+      box-shadow:0 8px 40px rgba(100,140,0,0.10), 0 2px 8px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.9);
+    }
+    /* Subtle top accent line on card */
+    html.light .auth-card::before{
+      content:'';
+      position:absolute;top:0;left:0;right:0;height:2px;
+      background:linear-gradient(90deg,transparent 0%,rgba(143,212,0,0.6) 30%,rgba(204,255,0,0.8) 50%,rgba(143,212,0,0.6) 70%,transparent 100%);
+      border-radius:var(--r4) var(--r4) 0 0;
+      pointer-events:none;z-index:1;
+    }
+    html.light .auth-card{position:relative;overflow:hidden;}
+    html.light .tab-row{background:rgba(180,200,100,0.1);}
+    html.light .form-input{background:rgba(255,255,255,0.8);border-color:rgba(0,0,0,0.10);}
+    html.light .form-input:focus{border-color:var(--acc);box-shadow:0 0 0 3px rgba(143,212,0,0.15);}
+    html.light .auth-note{background:rgba(255,255,255,0.5);border-color:rgba(143,212,0,0.2);}
+    html.light .auth-note a{color:var(--acc);}
+    html.light .auth-note a:hover{color:#2d5200;}
 
     /* ══════════════════════════════════════════
        AI SHELL — CLAUDE-STYLE LAYOUT
